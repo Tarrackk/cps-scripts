@@ -1,5 +1,5 @@
 
-```lua
+```
 
 --general variables
 local TEXT_TO_SPAM = "test" --Enter spam text here
