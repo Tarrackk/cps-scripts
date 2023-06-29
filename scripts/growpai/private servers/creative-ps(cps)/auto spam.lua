@@ -1,6 +1,4 @@
 
-```
-
 --general variables
 local TEXT_TO_SPAM = "test" --Enter spam text here
 local COOLDOWN_BETWEEN_TEXT = 5000 -- enter to what you want. (don't recommend under 4000-5000)
@@ -98,5 +96,3 @@ AddCallback("varlist", "OnVarlist", hookVarlist)
 userID = tostring(GetLocal().userid)
 userID = userID:gsub(".0", "")
 log("`9Set userID to:`5"..userID)
-
-```
